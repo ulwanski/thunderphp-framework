@@ -1,1 +1,17 @@
-vendor
+# Composer files
+composer.phar
+vendor/
+
+# Local configs
+config.local.php
+
+# Data
+data/cache/
+data/database/
+data/logs/
+data/sessions/
+data/temp/
+data/uploads/
+
+# Other files
+.idea
