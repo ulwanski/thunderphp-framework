@@ -1,7 +1,7 @@
 {
   "name": "ulwanski/thunderphp-framework",
   "description": "Thunderphp framework",
-  "version": "1.0.0-stable",
+  "version": "v1.0.0",
   "type": "project",
   "keywords": ["thunderphp", "framework", "ulwanski"],
   "homepage": "http://thunderphp.com",
