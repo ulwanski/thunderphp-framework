@@ -22,7 +22,7 @@
   },
   "require": {
     "php": ">=7.1",
-    "ulwanski/thunderphp-core": "0.*"
+    "ulwanski/thunderphp-core": "1.*"
   },
   "require-dev": {
   },
