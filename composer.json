@@ -20,7 +20,6 @@
     "source": "https://github.com/ulwanski/thunderphp-framework",
     "issues": "https://github.com/ulwanski/thunderphp-framework/issues"
   },
-  "prefer-stable": true,
   "require": {
     "php": ">=7.1",
     "ulwanski/thunderphp-core": "0.*"
