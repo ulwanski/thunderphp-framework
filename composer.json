@@ -1,0 +1,38 @@
+{
+  "name": "ulwanski/thunderphp-framework",
+  "description": "Thunderphp framework",
+  "version": "0.0.1-dev",
+  "type": "project",
+  "keywords": ["thunderphp", "framework", "ulwanski"],
+  "homepage": "http://thunderphp.com",
+  "time": "2017-03-28 18:30:00",
+  "license": "BSD-4-Clause",
+  "authors": [
+    {
+      "name": "Marek Ulwanski",
+      "email": "marek@ulwanski.pl",
+      "homepage": "http://ulwanski.pl",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@thunderphp.com",
+    "source": "https://github.com/ulwanski/thunderphp-framework",
+    "issues": "https://github.com/ulwanski/thunderphp-framework/issues"
+  },
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.1",
+    "ulwanski/thunderphp-core": "0.*"
+  },
+  "require-dev": {
+  },
+  "scripts": {
+    "pre-update-cmd": [
+      "mkdir -p data/cache data/databases data/indexes data/logs data/sessions data/uploads"
+    ],
+    "post-update-cmd": [
+      "echo 'Project installed' `date` > data/logs/install.log"
+    ]
+  }
+}
