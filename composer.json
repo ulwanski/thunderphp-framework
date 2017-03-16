@@ -22,14 +22,11 @@
   },
   "require": {
     "php": ">=7.1",
-    "ulwanski/thunderphp-core": "1.*"
+    "ulwanski/thunderphp-core": "1.0.0"
   },
   "require-dev": {
   },
   "scripts": {
-    "pre-update-cmd": [
-      "mkdir -p data/cache data/databases data/indexes data/logs data/sessions data/uploads"
-    ],
     "post-update-cmd": [
       "echo 'Project installed' `date` > data/logs/install.log"
     ]
