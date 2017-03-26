@@ -20,9 +20,17 @@
     "source": "https://github.com/ulwanski/thunderphp-framework",
     "issues": "https://github.com/ulwanski/thunderphp-framework/issues"
   },
+  "config": {
+    "data-dir": "data/cache",
+    "cache-dir": "data/cache",
+    "archive-dir": "data/archive",
+    "cache-files-dir": "data/cache",
+    "vendor-dir": "vendor",
+    "apcu-autoloader": true
+  },
   "require": {
     "php": ">=7.1",
-    "ulwanski/thunderphp-core": "1.0.0"
+    "ulwanski/thunderphp-core": "dev-master"
   },
   "require-dev": {
   },
